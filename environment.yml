@@ -1,0 +1,25 @@
+name: metallography
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - opencv
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy
+  - streamlit
+  - pillow
+  - tqdm
+  - jupyterlab
+  - pip
+  - pip:
+    - segment-anything
